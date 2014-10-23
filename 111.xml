@@ -1,5 +1,30 @@
-<MailNoRequest>
-<customerCode>K10101010</customerCode>
-<quantity>100</quantity>
-<materialCode>DZ100302</materialCode>
-</MailNoRequest >
+<RequestOrder> 
+  <clientID>K10101010</clientID>  
+  <logisticProviderID>YTO</logisticProviderID>  
+  <customerId>K10101010</customerId>  
+  <txLogisticID>K10101010_66675667</txLogisticID>  
+  <orderType>1</orderType>  
+  <serviceType>1</serviceType>  
+  <goodsValue>2</goodsValue>  
+  <remark>备注: br / 送货时间:不限定送货时间 , 可开箱验货,</remark>  
+  <agencyFund>123</agencyFund>  
+  <itemsValue>123</itemsValue>  
+  <sender> 
+    <name>YOHO! 有货（江苏）商贸服务有限公司</name>  
+    <postCode/>  
+    <phone>4008899647</phone>  
+    <mobile>4008899646</mobile>  
+    <prov>江苏省</prov>  
+    <city>南京市</city>  
+    <address>雨花区雨花经济技术开发区龙藏大道9号一号厂房YOHO!有货物流中心</address> 
+  </sender>  
+  <receiver> 
+    <name>小王</name>  
+    <phone>3213100</phone>  
+    <mobile>1565875971</mobile>  
+    <prov>北京</prov>  
+    <city>北京</city>  
+    <address>飞洒仿盛大</address> 
+  </receiver>  
+  <items></items>
+</RequestOrder>
