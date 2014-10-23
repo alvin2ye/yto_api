@@ -2,7 +2,7 @@ require 'digest'
 require "base64"
 require "cgi"
 
-body = File.read("111.xml").strip
+body = File.read("test.xml").strip
 s = "#{body}123456"
 # p Base64.encode64(Digest::MD5.hexdigest(s))
 
